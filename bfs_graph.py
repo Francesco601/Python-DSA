@@ -41,14 +41,10 @@ class Graph:
             print(s,end=" ")
 
 
-        #Get all adjacent vertices of the
-        #dequeue vertex s.If an adjacent has
-        #not been visited, then mark it
-        #visited and enqueue it
-        for i in self.graph[s]:
-            if visited[i] == False:
-                queue.append(i)
-                visited[i] = True
+            for i in self.graph[s]:
+                if visited[i] == False:
+                    queue.append(i)
+                    visited[i] = True
                 
 #Driver code
 
