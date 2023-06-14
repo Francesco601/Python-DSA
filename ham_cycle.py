@@ -5,7 +5,9 @@
 # once. A Hamiltonian cycle is such a path in which
 # there is an edge from the last vertex to the first
 # in the path. Time complexity is O(N!) where N is
-# the number iof vertices.
+# the number iof vertices. This problem is NP-complete,
+# meaning there is no known solution in polynomial time.
+# See "Introduction to Algorithms" by Cormen and Lyserson.
 
 class Graph():
 	def __init__(self, vertices):
