@@ -11,7 +11,7 @@
 # exactly once.Here we know that a Hamiltonian
 # Cycle exists (because the graph is complete)
 # and, in fact, many such tours exist.The problem
-#is to find a minimum weight Hamiltonian Cycle.
+# is to find a minimum weight Hamiltonian Cycle.
 # This problem is NP-hard and has no known polynomial
 # time solution. The time complexity is O(n!) where
 # n is the number of vertices in the graph. This is+
