@@ -3,7 +3,7 @@
 # The idea of Kadane’s algorithm is to maintain a variable max_ending_here thatstores the
 # maximum sum contiguous subarray ending at current index and a variable max_so_far that
 #stores the maximum sum of contiguous subarray found so far, Everytime there is a positive-sum
-# value in max_ending_here compare it with max_so_far and update max_so_far if it is greater than max_so_far.
+# value in max_ending_here compare it with max_so_far and update max_so_far if it is greater than max_ending_here.
 # Time complexity O(n) and space complexity is O(1).
 
 from sys import maxsize
